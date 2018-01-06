@@ -1,17 +1,24 @@
 package com.kata.train;
 
+import com.kata.train.singleinstance.PeopleID;
+import com.kata.train.singleinstance.SingleInstance;
+
 /**
  * Created by apple on 2017/6/6.
  */
 public class Test {
+
+    public static final Test test = null;
+
+
     public static void changeValue(int x){
-        x = x *2;
+        x = x * 2;
         System.out.println(x);
     }
 
     public static void main(String[] args) throws InterruptedException {
 
-
+        SingleInstance.SingleInstance.getInstance();
 
         Integer i1 = 13000;
         System.out.println(i1.equals(13000));
