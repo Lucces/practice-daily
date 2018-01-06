@@ -11,7 +11,6 @@ public class SynchornizedExecutor {
             Thread.sleep(5000);
             execute2("execute1 execute2 method run ...");
         }
-
     }
 
     public synchronized void execute2(String string) {
@@ -25,14 +24,13 @@ public class SynchornizedExecutor {
         Thread thread1 = new Thread() {
             @Override
             public void run() {
-                try {
-                    executor.execute1();
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
-                }
+            try {
+                executor.execute1();
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
             }
         };
-
 
         Thread thread2 = new Thread() {
             @Override
@@ -40,10 +38,9 @@ public class SynchornizedExecutor {
                 executor.execute2("thread execute2 method run ...");
             }
         };
+
         thread1.start();
         thread2.start();
 
     }
-
-
 }
