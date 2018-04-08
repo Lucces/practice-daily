@@ -3,6 +3,8 @@ package com.sunshine.encrypt;
 /**
  * Created by apple on 2018/1/5.
  */
+import org.apache.log4j.Logger;
+
 import java.security.InvalidKeyException;
 import java.security.NoSuchAlgorithmException;
 import javax.crypto.BadPaddingException;
@@ -10,7 +12,6 @@ import javax.crypto.Cipher;
 import javax.crypto.IllegalBlockSizeException;
 import javax.crypto.NoSuchPaddingException;
 import javax.crypto.spec.SecretKeySpec;
-import org.apache.log4j.Logger;
 
 public class CryptoHandle {
     private static Logger logger = Logger.getLogger(CryptoHandle.class);
@@ -79,11 +80,11 @@ public class CryptoHandle {
 
                 return new String(finalData);
             } catch (IllegalBlockSizeException var4) {
-                logger.error("decrypt error. ", var4);
+//                logger.error("decrypt error. ", var4);
             } catch (BadPaddingException var5) {
-                logger.error("decrypt error. ", var5);
+//                logger.error("decrypt error. ", var5);
             } catch (IllegalArgumentException var6) {
-                logger.error("decrypt error. ", var6);
+//                logger.error("decrypt error. ", var6);
             }
 
             return null;
