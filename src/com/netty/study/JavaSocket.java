@@ -1,4 +1,4 @@
-package com.kata.netty;
+package com.netty.study;
 
 import java.io.BufferedReader;
 import java.io.IOException;
