@@ -36,11 +36,15 @@ public class LiftOff implements  Runnable{
 
     public static void main(String[] args) throws InterruptedException {
 
-        for (int i = 0; i < 2; i++) {
-            Thread t = new Thread(new LiftOff());
-            t.start();
-        }
-        List<String> list = new ArrayList<String>();
+//        for (int i = 0; i < 2; i++) {
+//            Thread t = new Thread(new LiftOff());
+//            t.start();
+//        }
+//        List<String> list = new ArrayList<String>();
+
+        System.out.println(System.currentTimeMillis() / 1000);
+        System.out.println(System.currentTimeMillis() / 1000 + 24* 60* 60) ;
+
 
     }
 }

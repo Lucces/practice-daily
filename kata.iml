@@ -22,21 +22,21 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$USER_HOME$/Downloads/zookeeper-3.4.10.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/zk_study/wechat/pangu-api/target/pangu-api/WEB-INF/lib/log4j-1.2.16.jar!/" />
         </CLASSES>
         <JAVADOC />
-        <SOURCES>
-          <root url="jar://$USER_HOME$/Downloads/zookeeper-3.4.10.jar!/" />
-        </SOURCES>
+        <SOURCES />
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../zeus_task_trunk/WebContent/WEB-INF/lib/log4j-1.2.14.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/zookeeper-3.4.10/zookeeper-3.4.10.jar!/" />
         </CLASSES>
         <JAVADOC />
-        <SOURCES />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/Downloads/zookeeper-3.4.10/zookeeper-3.4.10.jar!/" />
+        </SOURCES>
       </library>
     </orderEntry>
   </component>
