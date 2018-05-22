@@ -31,12 +31,20 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
+<<<<<<< HEAD
           <root url="jar://$USER_HOME$/Downloads/zookeeper-3.4.10/zookeeper-3.4.10.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES>
           <root url="jar://$USER_HOME$/Downloads/zookeeper-3.4.10/zookeeper-3.4.10.jar!/" />
         </SOURCES>
+=======
+          <root url="file://$MODULE_DIR$/web/WEB-INF/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/web/WEB-INF/lib" recursive="false" />
+>>>>>>> company-changes
       </library>
     </orderEntry>
   </component>
