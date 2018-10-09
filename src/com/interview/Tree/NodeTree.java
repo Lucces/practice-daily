@@ -6,7 +6,7 @@ package com.interview.Tree;
 public class NodeTree {
 
     private NodeTree left;
-    private NodeTree rgiht;
+    private NodeTree right;
     private final char value;
 
     public NodeTree(char value) {
@@ -22,11 +22,11 @@ public class NodeTree {
     }
 
     public NodeTree getRgiht() {
-        return rgiht;
+        return right;
     }
 
-    public void setRgiht(NodeTree rgiht) {
-        this.rgiht = rgiht;
+    public void setRgiht(NodeTree right) {
+        this.right = right;
     }
 
     public char getValue() {
